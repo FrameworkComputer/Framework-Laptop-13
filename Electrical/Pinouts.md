@@ -8,7 +8,8 @@ considerations for future generations that may or may not utilize the additional
 ## Webcam Interface
 
 IPEX 20879-030E connector used to interface to the Webcam Module.  Note that the Webcam Module
-itself currently only uses a 12 pin connector.  The remaining signals are not connected.
+itself currently only uses a 12 pin connector using pins 19 through 30.  The remaining signals
+are not connected.
 
 | Pin | Signal   | Type (on Mainboard) | Notes                         |
 |-----|----------|---------------------|-------------------------------|
