@@ -123,12 +123,12 @@ that will work with the FFC we use, but these would be untested.
 Hefeng AWA02-S04FIA-HF connector for the Speakers.  Note that there are many other footprint
 compatible 4-pin connectors that are likely compatible.
 
-| Pin    | Signal         |
-|--------|----------------|
-| SPK_RP | Right channel+ |
-| SPK_RN | Right channel- |
-| SPK_LP | Left channel+  |
-| SKR_LN | Right channel- |
+| Pin | Signal |
+|-----|--------|
+| 1   | SPK_RP |
+| 2   | SPK_RN |
+| 3   | SPK_LP |
+| 4   | SPK_LN |
 
 ## Battery Interface
 
