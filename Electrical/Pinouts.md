@@ -151,3 +151,56 @@ ACES 50458-01001-001 connector for the Battery.
 
 Amphenol 10156000-051100LF connector for the Input Cover.  This includes signals
 for the Touchpad, Keyboard, and Fingerprint Reader.
+
+| Pin | Signal      | Notes    |
+|-----|-------------|----------|
+| 1   | GND         |          |
+| 2   | KSI0        |          |
+| 3   | KSI1        |          |
+| 4   | KSI2        |          |
+| 5   | KSI3        |          |
+| 6   | KSI4        |          |
+| 7   | KSI5        |          |
+| 8   | KSI6        |          |
+| 9   | KSI7        |          |
+| 10  | KSO0        |          |
+| 11  | KSO1        |          |
+| 12  | KSO2        |          |
+| 13  | KSO3        |          |
+| 14  | KSO4        |          |
+| 15  | KSO5        |          |
+| 16  | KSO6        |          |
+| 17  | KSO7        |          |
+| 18  | KSO8        |          |
+| 19  | KSO9        |          |
+| 20  | KSO10       |          |
+| 21  | KSO11       |          |
+| 22  | KSO12       |          |
+| 23  | KSO13       |          |
+| 24  | KSO14       |          |
+| 25  | KSO15       |          |
+| 26  | GND         |          |
+| 27  | CAPS_P      | 5V       |
+| 28  | CAPS_N      |          |
+| 29  | GND         |          |
+| 30  | KBL_P       | 5V (PWM) |
+| 31  | GND         |          |
+| 32  | KBL_P       | 5V (PWM) |
+| 33  | GND         |          |
+| 34  | TP_SCL      |          |
+| 35  | TP_INT      |          |
+| 36  | TP_SDA      |          |
+| 37  | TP_BOARD_ID |          |
+| 38  | 5VS         | 5V       |
+| 39  | 5VALW       | 5V       |
+| 40  | USB_N       |          |
+| 41  | GND         |          |
+| 42  | USB_P       |          |
+| 43  | FPR_CTRL    |          |
+| 44  | SWITCH      |          |
+| 45  | FPR_LED_R   |          |
+| 46  | FPR_LED_W   |          |
+| 47  | FPR_LED_G   |          |
+| 48  | FPR_LED_COM | 5V       |
+| 49  | GND         |          |
+| 50  | NC          |          |
