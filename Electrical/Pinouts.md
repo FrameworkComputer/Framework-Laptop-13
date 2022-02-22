@@ -204,3 +204,15 @@ for the Touchpad, Keyboard, and Fingerprint Reader.
 | 48  | FPR_LED_COM | 5V       |
 | 49  | GND         |          |
 | 50  | NC          |          |
+
+## Fan Interface
+
+Hefeng AWA02-S04FIA-HF connector for the Fan.  Note that there are many other footprint
+compatible 4-pin connectors that are likely compatible.
+
+| Pin | Signal    |
+|-----|-----------|
+| 1   | 5V        |
+| 2   | FAN_SPEED |
+| 3   | FAN_PWM   |
+| 4   | GND       |
