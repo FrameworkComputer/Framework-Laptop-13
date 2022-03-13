@@ -24,14 +24,18 @@ bosses = [[(26.2+30.8)/2, -27+4.6/2, 0],
 tray_w = 10;
 // Thickness of the tray base
 tray_h = 3;
+// The height of the boss, should be at least 1.0 in order to clear the mainboard bottom-side keepout
+boss_h = 5;
 // Whether or not to use threaded inserts for the fasteners
 use_insert = false;
+// VESA mount spacing
+vesa_w = 75;
 
 // The bosses for the fasteners
 module boss() {
     $fn = 128;
-    cylinder(h = tray_h+1, r = 6/2);
-    cylinder(h = tray_h+2, r = 4.4/2-0.1);
+    cylinder(h = tray_h+boss_h-1, r = 6/2);
+    cylinder(h = tray_h+boss_h, r = 4.4/2-0.1);
 }
 
 difference() {
@@ -40,8 +44,11 @@ difference() {
         translate([0, mainboard[1]/2-27, tray_h/2]) {
             difference() {
                 roundedBox([mainboard[0], mainboard[1], tray_h], tray_w/2, true);
-                translate([-mainboard[0]/4+tray_w/4, 0, 0]) roundedBox([mainboard[0]/2-tray_w*1.5, mainboard[1]-tray_w*2, tray_h+1], tray_w/4, true);
-                translate([mainboard[0]/4-tray_w/4, 0, 0]) roundedBox([mainboard[0]/2-tray_w*1.5, mainboard[1]-tray_w*2, tray_h+1], tray_w/4, true);
+                
+                // Cutouts
+                roundedBox([vesa_w-tray_w*2, mainboard[1]-tray_w*2, tray_h+1], tray_w/4, true);
+                translate([-mainboard[0]/4-vesa_w/4, 0, 0]) roundedBox([vesa_w-tray_w*2, mainboard[1]-tray_w*2, tray_h+1], tray_w/4, true);
+                translate([mainboard[0]/4+vesa_w/4, 0, 0]) roundedBox([vesa_w-tray_w*2, mainboard[1]-tray_w*2, tray_h+1], tray_w/4, true);
             }
         }
 
@@ -57,8 +64,15 @@ difference() {
     
     // The holes in the bosses
     if (use_insert) {
-        for (b = bosses) translate(b) cylinder(h = tray_h+2, r = 3.5/2);
+        for (b = bosses) translate(b) cylinder(h = tray_h+boss_h, r = 3.5/2);
     } else {
-        for (b = bosses) translate(b) cylinder(h = tray_h+2, r = 1.5/2);
+        for (b = bosses) translate(b) cylinder(h = tray_h+boss_h, r = 1.5/2);
+    }
+    
+    // VESA holes
+    for (x = [-vesa_w/2, vesa_w/2]) {
+        for (y = [-vesa_w/2+25, vesa_w/2+25]) {
+            translate([x, y, -0.1]) cylinder(h = tray_h+0.2, r = 2.0 + 0.2);
+        }
     }
 }
