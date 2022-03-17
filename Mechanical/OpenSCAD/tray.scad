@@ -38,7 +38,7 @@ wifi_boss = [138.65, -15.08, 1.49];
 // The bosses for the fasteners
 module boss() {
     $fn = 128;
-    cylinder(h = tray_h+boss_h-1.2, r = 6/2);
+    cylinder(h = tray_h+boss_h-1.0, r = 6/2);
     cylinder(h = tray_h+boss_h, r = 4.4/2-0.1);
 }
 
