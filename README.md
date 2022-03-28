@@ -7,3 +7,11 @@ Documentation for the Mainboard in the Framework Laptop
 
 Expansion Cards © 2022 by Framework Computer Inc is licensed under CC BY 4.0.
 To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/
+
+## Mechanical
+
+The Mechanical folder contains 2D drawings of the Mainboard along with a couple of example 3D-printable cases.
+
+## Electrical
+
+The Electrical folder contains the pinouts and part numbers of the connectors on the Mainboard.
