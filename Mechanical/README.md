@@ -13,7 +13,7 @@ To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0
 
 ![image](https://user-images.githubusercontent.com/28994301/161453938-39847147-20d6-41aa-a7db-2ec4cd613374.png)
 
-A basic 3D printable tray modeled in OpenSCAD, usable as a starting point for more complex cases.
+A basic VESA 75mm mountable 3D printable tray modeled in OpenSCAD, usable as a starting point for more complex cases.
 
 ## Printable Case
 
