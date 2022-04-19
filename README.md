@@ -1,5 +1,5 @@
 # Framework Laptop Mainboard
-Documentation for the Mainboard in the Framework Laptop
+Documentation for the Mainboard in the Framework Laptop (available at https://frame.work/marketplace/mainboards).
 
 ![mainboard_spread](https://user-images.githubusercontent.com/28994301/155036191-9f03d3c9-7e09-4d69-83da-5ba8b3641d95.jpg)
 
