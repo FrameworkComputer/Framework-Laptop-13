@@ -22,5 +22,5 @@ The left and right sections of both the bottom and top covers are available in b
 
 Note that you'll need some fasteners to install everything (see https://guides.frame.work/Guide/Fasteners+Guide/106 for all fastener types)
 
-1. 5x Mainboard fasteners - M1.6 1.5mm fastener with a 5.5mm diameter T5 head and 0.6mm thread pitch
-2. 3x Audio Board and WiFi card fasteners - M2 3.0mm fastener with a 4.5mm diameter T5 head and 0.7mm thread pitch
+1. 5x Mainboard fasteners - M1.6 1.5mm fastener with a 5.5mm diameter T5 head
+2. 3x Audio Board and WiFi card fasteners - M2 3.0mm fastener with a 4.5mm diameter T5 head
