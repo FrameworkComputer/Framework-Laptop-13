@@ -121,7 +121,8 @@ that will work with the FFC we use, but these would be untested.
 ## Speaker Interface
 
 Hefeng AWA02-S04FIA-HF connector for the Speakers.  Note that there are many other footprint
-compatible 4-pin connectors that are likely compatible.
+compatible 4-pin connectors that are likely compatible. This kind of connector is also known
+as "JST SH", and has a 1.0 mm pitch. The same connector is used for the Fan.
 
 | Pin | Signal |
 |-----|--------|
@@ -150,7 +151,8 @@ ACES 50458-01001-001 connector for the Battery.
 ## Input Cover Interface
 
 Amphenol 10156000-051100LF connector for the Input Cover.  This includes signals
-for the Touchpad, Keyboard, and Fingerprint Reader.
+for the Touchpad, Keyboard, and Fingerprint Reader. The mating connector for it
+is 10156001-051100LF.
 
 | Pin | Signal      | Notes    |
 |-----|-------------|----------|
@@ -208,7 +210,8 @@ for the Touchpad, Keyboard, and Fingerprint Reader.
 ## Fan Interface
 
 Hefeng AWA02-S04FIA-HF connector for the Fan.  Note that there are many other footprint
-compatible 4-pin connectors that are likely compatible.
+compatible 4-pin connectors that are likely compatible. This kind of connector is also known
+as "JST SH", and has a 1.0 mm pitch. The same connector is used for the Speakers.
 
 | Pin | Signal    |
 |-----|-----------|
