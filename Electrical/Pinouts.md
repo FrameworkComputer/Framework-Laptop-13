@@ -182,12 +182,12 @@ is 10156001-051100LF.
 | 24  | KSO14       |          |
 | 25  | KSO15       |          |
 | 26  | GND         |          |
-| 27  | CAPS_P      | 5V       |
+| 27  | CAPS_P      | 5V through 1.33k resistor |
 | 28  | CAPS_N      |          |
 | 29  | GND         |          |
 | 30  | KBL_P       | 5V (PWM) |
 | 31  | GND         |          |
-| 32  | KBL_P       | 5V (PWM) |
+| 32  | KBL_P       | Same as 30 - two pins used for current capacity |
 | 33  | GND         |          |
 | 34  | TP_SCL      |          |
 | 35  | TP_INT      |          |
@@ -198,8 +198,8 @@ is 10156001-051100LF.
 | 40  | USB_N       |          |
 | 41  | GND         |          |
 | 42  | USB_P       |          |
-| 43  | FPR_CTRL    |          |
-| 44  | SWITCH      |          |
+| 43  | FPR_CTRL    | Used to filter power button presses while scanning fingerprint |
+| 44  | SWITCH      | Power button pin |
 | 45  | FPR_LED_R   |          |
 | 46  | FPR_LED_W   |          |
 | 47  | FPR_LED_G   |          |
