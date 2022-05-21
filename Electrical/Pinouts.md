@@ -68,10 +68,10 @@ control.
 | 13  | EDP_TXN_1   |                        |
 | 14  | GND         |                        |
 | 15  | EDP_TXP_2   |                        |
-| 16  | EDP_TXN_3   |                        |
+| 16  | EDP_TXN_2   |                        |
 | 17  | GND         |                        |
 | 18  | EDP_TXP_3   |                        |
-| 19  | EDP_TXN_4   |                        |
+| 19  | EDP_TXN_3   |                        |
 | 20  | GND         |                        |
 | 21  | EDP_HPD     | hotplug                |
 | 22  | BLK_PWM_LCD | Backlight PWM          |
