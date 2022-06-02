@@ -201,7 +201,7 @@ is 10156001-051100LF.
 | 43  | FPR_CTRL    | See [4]                      |
 | 44  | SWITCH      | Power button pin             |
 | 45  | FPR_LED_R   | Low-side control by the EC   |
-| 46  | FPR_LED_B   | Low-side control by the EC   |
+| 46  | FPR_LED_W   | Low-side control by the EC   |
 | 47  | FPR_LED_G   | Low-side control by the EC   |
 | 48  | FPR_LED_COM | 5V, fingerprint LED, see [3] |
 | 49  | GND         |                              |
