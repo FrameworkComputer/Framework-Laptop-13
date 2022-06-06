@@ -154,58 +154,62 @@ Amphenol 10156000-051100LF connector for the Input Cover.  This includes signals
 for the Touchpad, Keyboard, and Fingerprint Reader. The mating connector for it
 is 10156001-051100LF.
 
-| Pin | Signal      | Notes                        |
-|-----|-------------|------------------------------|
-| 1   | GND         |                              |
-| 2   | KSI0        | Keyboard scanning input 0    |
-| 3   | KSI1        | Keyboard scanning input 1    |
-| 4   | KSI2        | Keyboard scanning input 2    |
-| 5   | KSI3        | Keyboard scanning input 3    |
-| 6   | KSI4        | Keyboard scanning input 4    |
-| 7   | KSI5        | Keyboard scanning input 5    |
-| 8   | KSI6        | Keyboard scanning input 6    |
-| 9   | KSI7        | Keyboard scanning input 7    |
-| 10  | KSO0        | Keyboard scanning output 0   |
-| 11  | KSO1        | Keyboard scanning output 1   |
-| 12  | KSO2        | Keyboard scanning output 2   |
-| 13  | KSO3        | Keyboard scanning output 3   |
-| 14  | KSO4        | Keyboard scanning output 4   |
-| 15  | KSO5        | Keyboard scanning output 5   |
-| 16  | KSO6        | Keyboard scanning output 6   |
-| 17  | KSO7        | Keyboard scanning output 7   |
-| 18  | KSO8        | Keyboard scanning output 8   |
-| 19  | KSO9        | Keyboard scanning output 9   |
-| 20  | KSO10       | Keyboard scanning output 10  |
-| 21  | KSO11       | Keyboard scanning output 11  |
-| 22  | KSO12       | Keyboard scanning output 12  |
-| 23  | KSO13       | Keyboard scanning output 13  |
-| 24  | KSO14       | Keyboard scanning output 14  |
-| 25  | KSO15       | Keyboard scanning output 15  |
-| 26  | GND         |                              |
-| 27  | CAPS_P      | +5VS through 1.33k resistor  |
-| 28  | CAPS_N      | Low-side control by the EC   |
-| 29  | GND         |                              |
-| 30  | KBL_P       | High-side 5V PWM by the EC   |
-| 31  | GND         |                              |
-| 32  | KBL_P       | Same as 30 - see [1]         |
-| 33  | GND         |                              |
-| 34  | TP_SCL      | Touchpad I2C SCL             |
-| 35  | TP_INT      | Touchpad interrupt GPIO      |
-| 36  | TP_SDA      | Touchpad I2C SDA             |
-| 37  | TP_BOARD_ID |                              |
-| 38  | 5VS         | 5V, touchpad - see [2]       |
-| 39  | 5VALW       | 5V, fingerprint, see [3]     |
-| 40  | USB_N       | Fingerprint sensor USB       |
-| 41  | GND         |                              |
-| 42  | USB_P       | Fingerprint sensor USB       |
-| 43  | FPR_CTRL    | See [4]                      |
-| 44  | SWITCH      | Power button pin             |
-| 45  | FPR_LED_R   | Low-side control by the EC   |
-| 46  | FPR_LED_W   | Low-side control by the EC   |
-| 47  | FPR_LED_G   | Low-side control by the EC   |
-| 48  | FPR_LED_COM | 5V, fingerprint LED, see [3] |
-| 49  | GND         |                              |
-| 50  | NC          |                              |
+Caution: this pinout is Framework schematic-specific, using a symbol with odd-even numbering.
+It doesn't translate directly to the Amphenol connector footprint numbering - which is
+counterclockwise. Amphenol connector numbering is shown in the "Conn" column.
+
+| Pin | Conn | Signal      | Notes                        |
+|-----|------|-------------|------------------------------|
+| 1   | 1    | GND         |                              |
+| 2   | 50   | KSI0        | Keyboard scanning input 0    |
+| 3   | 2    | KSI1        | Keyboard scanning input 1    |
+| 4   | 49   | KSI2        | Keyboard scanning input 2    |
+| 5   | 3    | KSI3        | Keyboard scanning input 3    |
+| 6   | 48   | KSI4        | Keyboard scanning input 4    |
+| 7   | 4    | KSI5        | Keyboard scanning input 5    |
+| 8   | 47   | KSI6        | Keyboard scanning input 6    |
+| 9   | 5    | KSI7        | Keyboard scanning input 7    |
+| 10  | 46   | KSO0        | Keyboard scanning output 0   |
+| 11  | 6    | KSO1        | Keyboard scanning output 1   |
+| 12  | 45   | KSO2        | Keyboard scanning output 2   |
+| 13  | 7    | KSO3        | Keyboard scanning output 3   |
+| 14  | 44   | KSO4        | Keyboard scanning output 4   |
+| 15  | 8    | KSO5        | Keyboard scanning output 5   |
+| 16  | 43   | KSO6        | Keyboard scanning output 6   |
+| 17  | 9    | KSO7        | Keyboard scanning output 7   |
+| 18  | 42   | KSO8        | Keyboard scanning output 8   |
+| 19  | 10   | KSO9        | Keyboard scanning output 9   |
+| 20  | 41   | KSO10       | Keyboard scanning output 10  |
+| 21  | 11   | KSO11       | Keyboard scanning output 11  |
+| 22  | 40   | KSO12       | Keyboard scanning output 12  |
+| 23  | 12   | KSO13       | Keyboard scanning output 13  |
+| 24  | 39   | KSO14       | Keyboard scanning output 14  |
+| 25  | 13   | KSO15       | Keyboard scanning output 15  |
+| 26  | 38   | GND         |                              |
+| 27  | 14   | CAPS_P      | +5VS through 1.33k resistor  |
+| 28  | 37   | CAPS_N      | Low-side control by the EC   |
+| 29  | 15   | GND         |                              |
+| 30  | 36   | KBL_P       | High-side 5V PWM by the EC   |
+| 31  | 16   | GND         |                              |
+| 32  | 35   | KBL_P       | Same as 30 - see [1]         |
+| 33  | 17   | GND         |                              |
+| 34  | 34   | TP_SCL      | Touchpad I2C SCL             |
+| 35  | 18   | TP_INT      | Touchpad interrupt GPIO      |
+| 36  | 33   | TP_SDA      | Touchpad I2C SDA             |
+| 37  | 19   | TP_BOARD_ID |                              |
+| 38  | 32   | 5VS         | 5V, touchpad - see [2]       |
+| 39  | 20   | 5VALW       | 5V, fingerprint, see [3]     |
+| 40  | 31   | USB_N       | Fingerprint sensor USB       |
+| 41  | 21   | GND         |                              |
+| 42  | 30   | USB_P       | Fingerprint sensor USB       |
+| 43  | 22   | FPR_CTRL    | See [4]                      |
+| 44  | 29   | SWITCH      | Power button pin             |
+| 45  | 23   | FPR_LED_R   | Low-side control by the EC   |
+| 46  | 28   | FPR_LED_W   | Low-side control by the EC   |
+| 47  | 24   | FPR_LED_G   | Low-side control by the EC   |
+| 48  | 27   | FPR_LED_COM | 5V, fingerprint LED, see [3] |
+| 49  | 25   | GND         |                              |
+| 50  | 26   | NC          |                              |
 
 - [1] The connector has two KBL_P pins - in order to increase current capacity. They're created from +5VS rail.
 - [2] Connected to the +5VS (switched) rail through a 0 ohm resistor
