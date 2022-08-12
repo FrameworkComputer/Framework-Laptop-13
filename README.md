@@ -3,7 +3,7 @@ Documentation for the Mainboard in the Framework Laptop (available at https://fr
 
 We designed the Mainboard from the start as a standalone module to make upgrades easy in the Framework Laptop and to also work great as a high-performance single board computer using Intel’s i5-1135G7, i5-1240P, i7-1165G7, i7-1185G7, i7-1260P, and i7-1280P processors.  All you need to do is insert memory, plug in a USB-C power adapter, and hit the tiny power button on-board, and you’ve got a powered-up computer.  You can also pick up parts like a Bottom Cover Kit, Input Cover Kit, or Battery from the Marketplace to extend your setup with.  See more on this at https://frame.work/blog/mainboard-availability-and-open-source-release.
 
-We want to make it as easy as possible to build new projects and products that use the Mainboard, so this repository contains 2D and 3D CAD as well as electrical documentation to help you get started.
+We want to make it as easy as possible to build new projects and products that use the Mainboard, so this repository contains 2D and 3D CAD files, electrical documentation, FAQs, and other information to help you get started.
 
 ![mainboard_spread](https://user-images.githubusercontent.com/28994301/155036191-9f03d3c9-7e09-4d69-83da-5ba8b3641d95.jpg)
 
@@ -11,6 +11,12 @@ We want to make it as easy as possible to build new projects and products that u
 
 Mainboard © 2022 by Framework Computer Inc is licensed under CC BY 4.0.
 To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/
+
+## Bringup FAQ
+
+You will have questions about making a Mainboard work in your own projects. How do you get display output? What kind of 
+charger would work for standalone Mainboard use? Can you make your own battery? All of these questions deserve answers, so 
+here's [a FAQ page.](Bringup/README.md)
 
 ## Mechanical
 
