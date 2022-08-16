@@ -49,7 +49,7 @@ are not connected.
 IPEX 20879-040E connector used to interface to an eDP display.  Note that there are signals
 defined for both USB 2.0 and I2C touchscreens.  There is a PWM interface to control backlight
 brightness, but the display currently used on the Framework Laptop converts that to a DC LED
-control.
+control.  Note that pin 1 is on the left when looking at the receptacle on the Mainboard.
 
 | Pin | Signal      | Description            |
 |-----|-------------|------------------------|
