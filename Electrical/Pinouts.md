@@ -228,3 +228,27 @@ as "JST SH", and has a 1.0 mm pitch. The same connector is used for the Speakers
 | 2   | FAN_SPEED |
 | 3   | FAN_PWM   |
 | 4   | GND       |
+
+# Daughterboard pinouts
+
+Some connectors don't reside on the Mainboard itself, but their pinout could still be of use.
+
+## Fingerprint sensor module
+
+The fingerprint module resides on the input cover and connects to the touchpad board.
+All of its signals are directly passed to the input cover connector described above.
+The connector used is Kyocera 046809610110846+.
+
+| Pin | Signal      | Notes                        |
+|-----|-------------|------------------------------|
+| 1   | VBUS        | 5V                           |
+| 2   | USB_P       | USB data                     |
+| 3   | USB_N       | USB data                     |
+| 4   | GND         |                              |
+| 5   | FPR_CTRL    | Output (mask switch events)  |
+| 6   | SWITCH      | Open collector output        |
+| 7   | FPR_LED_W   |                              |
+| 8   | FPR_LED_G   |                              |
+| 9   | FPR_LED_R   |                              |
+| 10  | FPR_LED_COM | 5V                           |
+
