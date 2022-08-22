@@ -233,10 +233,10 @@ as "JST SH", and has a 1.0 mm pitch. The same connector is used for the Speakers
 
 Some connectors don't reside on the Mainboard itself, but their pinout could still be of use.
 
-## Fingerprint sensor module
+## Fingerprint Reader
 
-The fingerprint module resides on the input cover and connects to the touchpad board.
-All of its signals are directly passed to the input cover connector described above.
+The Fingerprint Reader resides on the Input Cover and connects though the Touchpad.
+All of its signals are directly passed to the Input Cover Interface described above.
 The connector used is Kyocera 046809610110846+.
 
 | Pin | Signal      | Notes                        |
@@ -251,4 +251,3 @@ The connector used is Kyocera 046809610110846+.
 | 8   | FPR_LED_G   |                              |
 | 9   | FPR_LED_R   |                              |
 | 10  | FPR_LED_COM | 5V                           |
-
