@@ -1,6 +1,6 @@
 # Printable Case
 
-![Case](https://user-images.githubusercontent.com/28994301/162662956-01da9932-f107-480f-8958-fde0c1e6853d.jpg)
+![Case](https://user-images.githubusercontent.com/28994301/187817425-f722974b-2de0-42c8-af53-446fa84c7af3.png)
 
 ## License
 
