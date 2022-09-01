@@ -17,6 +17,6 @@ A basic VESA 75mm mountable 3D printable tray modeled in OpenSCAD, usable as a s
 
 ## Printable Case
 
-![_DSC4650](https://user-images.githubusercontent.com/28994301/162662140-038afc2f-1a0f-43ff-ad77-1db790becafc.jpg)
+![Case](https://user-images.githubusercontent.com/28994301/187817425-f722974b-2de0-42c8-af53-446fa84c7af3.png)
 
 A fully featured 3D printable case.
