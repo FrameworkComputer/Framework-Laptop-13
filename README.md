@@ -14,7 +14,7 @@ To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0
 
 ## Mechanical
 
-![Case](https://user-images.githubusercontent.com/28994301/162662197-8518a2fa-7a31-409f-8e0e-28b08dc61a03.jpg)
+![Case](https://user-images.githubusercontent.com/28994301/187817348-42792225-093a-4b99-b51d-f74d154b59f4.png)
 
 The Mechanical folder contains 2D drawings of the Mainboard along with a couple of example 3D-printable cases.
 
