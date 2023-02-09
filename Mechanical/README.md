@@ -20,3 +20,9 @@ A basic VESA 75mm mountable 3D printable tray modeled in OpenSCAD, usable as a s
 ![Case](https://user-images.githubusercontent.com/28994301/187817425-f722974b-2de0-42c8-af53-446fa84c7af3.png)
 
 A fully featured 3D printable case.
+
+# Community projects
+
+## 3D model of the Mainboard
+
+A non-complete yet useful model of the board [is available on GitHub,](https://github.com/whatthefilament/Framework-Motherboard-Reference-CAD) made by whatthefilament

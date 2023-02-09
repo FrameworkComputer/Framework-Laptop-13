@@ -16,7 +16,8 @@ To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0
 
 ![Case](https://user-images.githubusercontent.com/28994301/187817348-42792225-093a-4b99-b51d-f74d154b59f4.png)
 
-The Mechanical folder contains 2D drawings of the Mainboard along with a couple of example 3D-printable cases.
+The Mechanical folder contains 2D drawings of the Mainboard along with a couple of example 3D-printable cases,
+as well as links to community mechanical resources.
 
 Both of these are easy to print on home 3D printers.  Since these are open source, you are free to modify, remix, and redistribute them however you’d like to.
 
