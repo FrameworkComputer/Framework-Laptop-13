@@ -1,5 +1,5 @@
-# Framework Laptop Mainboard
-Documentation for the Mainboard in the Framework Laptop (available at https://frame.work/marketplace/mainboards).
+# Framework Laptop 13
+Documentation for the Mainboard and other key modules in the Framework Laptop 13 (available at https://frame.work/marketplace/mainboards).
 
 We designed the Mainboard from the start as a standalone module to make upgrades easy in the Framework Laptop and to also work great as a high-performance single board computer using Intel’s i5-1135G7, i5-1240P, i7-1165G7, i7-1185G7, i7-1260P, and i7-1280P processors.  All you need to do is insert memory, plug in a USB-C power adapter, and hit the tiny power button on-board, and you’ve got a powered-up computer.  You can also pick up parts like a Bottom Cover Kit, Input Cover Kit, or Battery from the Marketplace to extend your setup with.  See more on this at https://frame.work/blog/mainboard-availability-and-open-source-release.
 
