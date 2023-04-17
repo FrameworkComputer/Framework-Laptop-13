@@ -255,7 +255,7 @@ The connector used is Kyocera 046809610110846+.
 ## Webcam
 
 This is the ZIF connector that is on the Webcam Module itself.  The connector is
-Kyocera 046809612110846+.
+Kyocera 046809612110846+.  The ALS is CM32183A3OP.  The Mics are SPK0641HT4H.
 
 | Pin | Signal  | Type         | Voltage | Notes                               |
 |-----|---------|--------------|---------|-------------------------------------|
