@@ -25,3 +25,8 @@ Both of these are easy to print on home 3D printers.  Since these are open sourc
 The Electrical folder contains the pinouts and part numbers of the connectors on the Mainboard.
 
 All of this is a starting point for a broader set of open source Mainboard documentation to enable creation of fully compatible third-party Mainboards in the future.
+
+## Helpers and Inspiration
+
+Are you looking for projects that could help you in your Mainboard projects? Would you like to see what others have done? If 
+so, here's [a list of projects and other helpful materials.](Helpers_Inspiration/README.md)
