@@ -9,19 +9,33 @@ We want to make it as easy as possible to build new projects and products that u
 
 ## License
 
-Mainboard © 2022 by Framework Computer Inc is licensed under CC BY 4.0.
+Framework Laptop 13 © 2022 by Framework Computer Inc is licensed under CC BY 4.0.
 To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/
 
-## Mechanical
+## Mainboard
 
 ![Case](https://user-images.githubusercontent.com/28994301/187817348-42792225-093a-4b99-b51d-f74d154b59f4.png)
 
-The Mechanical folder contains 2D drawings of the Mainboard along with a couple of example 3D-printable cases.
+This contains 2D drawings of the Mainboard along with a couple of example 3D-printable cases.
 
 Both of these are easy to print on home 3D printers.  Since these are open source, you are free to modify, remix, and redistribute them however you’d like to.
 
-## Electrical
-
-The Electrical folder contains the pinouts and part numbers of the connectors on the Mainboard.
+It also contains the pinouts and part numbers of the connectors on the Mainboard.
 
 All of this is a starting point for a broader set of open source Mainboard documentation to enable creation of fully compatible third-party Mainboards in the future.
+
+## Battery
+
+2D drawings, 3D CAD, and the pinout of the Battery to enable re-use.
+
+## Display
+
+2D drawings, 3D CAD, and the pinout of the Display to enable re-use.
+
+## Touchpad
+
+Coming soon.
+
+## Webcam
+
+Coming soon.
