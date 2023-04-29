@@ -38,7 +38,7 @@ Pinout of the Fingerprint Reader.
 
 ## Touchpad
 
-Coming soon.
+Pinout of the Touchpad connectors.
 
 ## Webcam
 
