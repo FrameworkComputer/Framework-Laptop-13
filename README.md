@@ -32,10 +32,14 @@ All of this is a starting point for a broader set of open source Mainboard docum
 
 2D drawings, 3D CAD, and the pinout of the Display to enable re-use.
 
+## Fingerprint Reader
+
+Pinout of the Fingerprint Reader.
+
 ## Touchpad
 
 Coming soon.
 
 ## Webcam
 
-Coming soon.
+Pinout of the Webcam.
