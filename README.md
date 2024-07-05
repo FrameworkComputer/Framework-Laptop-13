@@ -48,3 +48,12 @@ Pinout of the Touchpad connectors.
 ## Webcam
 
 Pinout of the Webcam.
+
+## Expansion Cards
+
+See https://github.com/FrameworkComputer/ExpansionCards
+
+## Embedded Controller firmware
+
+See https://github.com/FrameworkComputer/EmbeddedController
+
