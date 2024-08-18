@@ -225,9 +225,9 @@ counterclockwise. Amphenol connector numbering is shown in the "Conn" column.
 | 37  | 19   | TP_BOARD_ID |                              |
 | 38  | 32   | 5VS         | 5V, touchpad - see [2]       |
 | 39  | 20   | 5VALW       | 5V, fingerprint, see [3]     |
-| 40  | 31   | USB_N       | Fingerprint sensor USB       |
+| 40  | 31   | USB_DM      | Fingerprint sensor USB       |
 | 41  | 21   | GND         |                              |
-| 42  | 30   | USB_P       | Fingerprint sensor USB       |
+| 42  | 30   | USB_DP      | Fingerprint sensor USB       |
 | 43  | 22   | FPR_CTRL    | See [4]                      |
 | 44  | 29   | SWITCH      | Power button pin             |
 | 45  | 23   | FPR_LED_R   | Low-side control by the EC   |

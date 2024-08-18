@@ -14,8 +14,8 @@ Mainboard documentation. The connector used is Kyocera 046809610110846+.
 | Pin | Signal      | Notes                        |
 |-----|-------------|------------------------------|
 | 1   | VBUS        | 5V                           |
-| 2   | USB_P       | USB data                     |
-| 3   | USB_N       | USB data                     |
+| 2   | USB_DP      | USB data                     |
+| 3   | USB_DM      | USB data                     |
 | 4   | GND         |                              |
 | 5   | FPR_CTRL    | Output (mask switch events)  |
 | 6   | SWITCH      | Open collector output        |
