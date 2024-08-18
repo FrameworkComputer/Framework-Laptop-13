@@ -117,7 +117,7 @@ The ZIF connector for the FPC going to the Mainboard, using a ACES 51688-0510M-0
 | 41  | 5VALW      | Always on supply | 5V              |
 | 42  | USB_DM     |                  |                 |
 | 43  | GND        |                  |                 |
-| 44  | USP_DP     |                  |                 |
+| 44  | USB_DP     |                  |                 |
 | 45  | EC_CONTROL |                  |                 |
 | 46  | SWITCH     |                  |                 |
 | 47  | LED_R      |                  |                 |
