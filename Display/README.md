@@ -7,8 +7,9 @@ To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0
 
 ## Pinout
 
-This is the eDP connector that is on the BOE NE135FBM-N41 LCD.  The connector is
-IPEX 20455-040E.
+This is the eDP connector that is on the BOE NE135FBM-N41 LCD (Original or Matte).
+The same connector is used on the BOE NE135A1M-NY1 LCD (2.8k).
+The connector is IPEX 20455-040E.
 
 | Pin | Signal      | Notes                  |
 |-----|-------------|------------------------|
