@@ -254,3 +254,31 @@ as "JST SH", and has a 1.0 mm pitch. The same connector is used for the Speakers
 | 2   | FAN_SPEED |
 | 3   | FAN_PWM   |
 | 4   | GND       |
+
+## RTC Battery Interface
+
+NOTE: The mainboard will charge this battery, so a rechargable ML1220 battery MUST be used.
+For example, CR2032 MUST NOT be used, it cannot be charged and will likely be damaged.
+
+RTC battery is used for storing persistent but resettable information.
+This includes the time and DRAM training. Disconnection will result in deletion of that information.
+If no battery is connection, DRAM training needs to happen on every boot, slowing down the boot process significantly.
+
+### Onboard RTC Battery
+
+Framework 13 Intel Core 11th through 13th Generation use an onboard coin cell battery as RTC.
+
+We use the Lotes LOTES_AAA-BAT-046-K01 connector.
+
+### RTC Battery Cable Connector
+
+On AMD Platforms and starting with Framework 13 Intel Core Ultra Series 1, no RTC battery is included anymore.
+Settings are kept alive by the normal system battery. The only case where an
+RTC battery is recommended, is when the system is used in standalone mode (without a battery).
+
+Cvilux CVILU_CI4402M1HRC-NH connector for the RTC Battery.
+
+| Pin | Signal    | Location |
+|-----|-----------|----------|
+| 1   | +RTCBATT  | Left     |
+| 2   | GND       | Right    |
