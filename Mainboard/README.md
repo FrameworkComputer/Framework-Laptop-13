@@ -122,9 +122,10 @@ control.  Note that pin 1 is on the left when looking at the receptacle on the M
 
 ## Audio Board Interface
 
-Hefeng AFC42-S15FMA-R3 ZIF connector that goes to the board that has the 3.5mm audio jack
-as well as the hall effect lid sensor.  Note that there are likely other 15 pin ZIF connectors
-that will work with the FFC we use, but these would be untested.
+Hefeng AFC42-S15FMA-R3 ZIF connector that goes to the board that has the 3.5mm
+audio jack as well as the hall effect lid sensor.  Note that there are likely
+other 15 pin 0.5mm pitch ZIF connectors that will work with the FFC we use, but
+these would be untested.
 
 | Pin | Signal    |
 |-----|-----------|
