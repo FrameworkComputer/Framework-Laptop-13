@@ -230,9 +230,9 @@ counterclockwise. Amphenol connector numbering is shown in the "Conn" column.
 | 42  | 30   | USB_DP      | Fingerprint sensor USB       |
 | 43  | 22   | FPR_CTRL    | See [4]                      |
 | 44  | 29   | SWITCH      | Power button pin             |
-| 45  | 23   | FPR_LED_R   | Low-side control by the EC   |
-| 46  | 28   | FPR_LED_W   | Low-side control by the EC   |
-| 47  | 24   | FPR_LED_G   | Low-side control by the EC   |
+| 45  | 23   | FPR_LED_W   | See [5]                      |
+| 46  | 28   | FPR_LED_R   | See [5]                      |
+| 47  | 24   | FPR_LED_G   | See [5]                      |
 | 48  | 27   | FPR_LED_COM | 5V, fingerprint LED, see [3] |
 | 49  | 25   | GND         |                              |
 | 50  | 26   | NC          |                              |
@@ -241,6 +241,7 @@ counterclockwise. Amphenol connector numbering is shown in the "Conn" column.
 - [2] Connected to the +5VS (switched) rail through a 0 ohm resistor
 - [3] Connected to the +5VALW (always-on) rail through a 0 ohm resistor
 - [4] FPR_CTRL is used to filter out power button presses while the fingerprint sensor is scanning
+- [5] The EC drives these LED's through low-side transistors. The RGB channels from the EC drive the white, green, and red fingerprint LED's, respectively.
 
 ## Fan Interface
 
