@@ -120,8 +120,10 @@ The ZIF connector for the FPC going to the Mainboard, using a ACES 51688-0510M-0
 | 44  | USB_DP     |                  |                 |
 | 45  | EC_CONTROL |                  |                 |
 | 46  | SWITCH     |                  |                 |
-| 47  | LED_R      |                  |                 |
-| 48  | LED_G      |                  |                 |
-| 49  | LED_B      |                  |                 |
+| 47  | LED_R      | See [1]          |                 |
+| 48  | LED_G      | See [1]          |                 |
+| 49  | LED_B      | See [1]          |                 |
 | 50  | LED_COM    |                  | 5V              |
 | 51  | Reserved   | Not connected    |                 |
+
+- [1] The mainboard EC drives these LED's through low-side transistors. The RGB channels from the EC drive the white, green, and red fingerprint LED's, respectively.
