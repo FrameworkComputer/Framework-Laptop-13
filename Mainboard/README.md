@@ -23,6 +23,12 @@ A basic VESA 75mm mountable 3D printable tray modeled in OpenSCAD, usable as a s
 
 A fully featured 3D printable case.
 
+# Partial Schematics
+Partial schematics are listed for each generation of Framework Laptop 13.  These contain block diagrams, power trees,
+and the circuits around each connector.  For full schematics, repair shops can submit a request to our support team
+with the serial number of the Mainboard.
+
+Note: Framework Laptop 13 (13th Gen Intel Core) uses the same schematic as (12th Gen Intel Core).
 
 # Framework Laptop Mainboard Pinouts
 
