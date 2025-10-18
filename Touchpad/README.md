@@ -5,6 +5,10 @@
 Framework Laptop 13 © 2022 by Framework Computer Inc is licensed under CC BY 4.0.
 To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/
 
+## Firmware
+
+See [Firmware](Firmware) page.
+
 ## Pinout
 
 ### Keyboard Connector
@@ -54,6 +58,7 @@ The ZIF connector for the keyboard backlight, using a ACES 51601-0040M-001 part.
 ### Fingerprint Reader Connector
 
 The ZIF connector for the Fingerprint Reader, using a Kyocera 046809610110846+ part.
+It has 10 pins with 0.5mm spacing.
 
 | Pin | Signal     | Notes                       | Voltage |
 |-----|------------|-----------------------------|---------|
@@ -125,3 +130,24 @@ The ZIF connector for the FPC going to the Mainboard, using a ACES 51688-0510M-0
 | 49  | LED_B      |                  |                 |
 | 50  | LED_COM    |                  | 5V              |
 | 51  | Reserved   | Not connected    |                 |
+
+## Silkscreen
+
+| Label | Type      | Description       |
+|-------|-----------|-------------------|
+| TG    | Testpoint | Ground            |
+| TI    | Testpoint | I2C Interrupt     |
+| TD    | Testpoint | I2C SDA           |
+| TV    | Testpoint | 3.3V              |
+| TC    | Testpoint | I2C SCL           |
+| TB    | Testpoint | Button            |
+| U1    | IC        | Pixart PCT3854    |
+| CON1  | Connector | 10pin Fingerprint |
+| CON2  | Connector | 4pin KB Backlight |
+| CON3  | Connector | Keyboard FPC      |
+| R1    | Resistor  | I2C SDA Pullup    |
+| R2    | Resistor  | I2C SCL Pullup    |
+
+The I2C pullup resistors are unpopulated, they are present on the system side instead of the touchpad.
+If you want to use the touchpad outside of the chassis, you can populate them.
+
