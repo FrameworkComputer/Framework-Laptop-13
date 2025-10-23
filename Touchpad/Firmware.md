@@ -3,9 +3,34 @@
 The touchpad presents as an I2C HID device at address 0x2C.
 Below the HID Report descriptor and details about some reports are documented.
 
-### HID Reports
+## HID Reports
 
-Report ID 1 - PTP (Precision Touchpad)
+### Reporting Modes
+
+The touchpad supports the standard PTP and Mouse Mode reporting modes.
+PTP reports up to 5 individual touches and the host is responsible for translating that into mouse movement.
+Mouse mode reports relative movement of the cursor and button state.
+
+To switch between modes, call `SetReport(ReportId=6, ReportBody=[MODE])` where
+Mode is 0x00 for Mode Mode and 0x03 for PTP.
+
+Sending raw I2C commands, it looks like this in pseudo python
+
+```python
+def enable_ptp(i2c, enable=True):
+    if enable:
+        MODE = 0x03
+    else:
+        MODE = 0x00
+    i2c.writeto(I2C_ADDRESS, bytes([
+        COMMAND_REG, 0x00,
+        FEATURE_REPORT + INPUTMODE_REPORT_ID, SET_REPORT,
+        DATA_REG, 0x00,
+        0x04, 0x00, 0x06, MODE,
+    ]))
+```
+
+### Report ID 1 - PTP (Precision Touchpad)
 
 ```mermaid
 ---
